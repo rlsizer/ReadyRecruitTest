@@ -58,11 +58,11 @@ namespace ReadyRecruit
             //   appId: "",
             //   appSecret: "");
 
-            //app.UseGoogleAuthentication(new GoogleOAuth2AuthenticationOptions()
-            //{
-            //    ClientId = "",
-            //    ClientSecret = ""
-            //});
+            app.UseGoogleAuthentication(new GoogleOAuth2AuthenticationOptions()
+            {
+                ClientId = "978071871202-4b5k455jll2cq6q7f1hemi6k9gb62rak.apps.googleusercontent.com",
+                ClientSecret = "ui975QnsVLXHGPRG77fNuRF4"
+            });
         }
     }
 }
